@@ -1,0 +1,458 @@
+/* Author Info 
+Name : Istiak Ahmed;
+Mail: ahmedistiak248@gmail.com;
+Website:apatotonai.com;
+*/
+
+
+/*
+
+====Index====
+
+1. Fuse At 
+2. Facilisis
+3. Ante donec
+4. Blandit rhoncus
+5. Placerat
+
+
+
+=========
+
+*/
+
+
+/* Global Css */
+
+
+h1{
+
+    font-size: 40pt;
+    color:#dd4b2b;
+}
+
+
+
+
+
+
+
+
+
+/* Header */
+
+.nav-head{
+
+    background-color: #edeff1;
+    padding: 20px 0;
+}
+
+.nav-link{
+
+    color: black;
+}
+
+.nav-link.js-scroll-trigger.active {
+    background-color: #dd4b2b;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 17px;
+}
+
+/* Header End */
+
+
+/*Hro Srtr*/
+
+.hero{
+    background: url(../img/banner.png) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-top{
+
+    text-align: center;
+    padding: 250px 0 60px;
+}
+
+.hero-top p{
+
+    font-size: 25pt;
+    color: #dd4b2b;
+}
+
+.hero-main{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-main h4{
+    text-align: center;
+    color: white;
+}
+
+.hero-main p{
+    text-align: center;
+    color: white;
+}
+
+.btn-cstm {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    color: #dd4b2b;
+    border-radius: 19px;
+    font-size: 15pt;
+    padding: 8px 23px;
+    border: none;
+}
+
+.btn.btn-primary.btn-cstm:hover{
+
+    background-color: #dd4b2b;
+    color: white;
+}
+
+/*Hro End*/
+
+/*facilis Srtr*/
+
+.facils{
+
+    width: 100%;
+    float: left;
+    background: #edeff1;
+}
+
+.facils h2{
+
+    font-size: 30px;
+    text-align: center;
+    /* display: block; */
+    margin: 60px auto;
+
+
+}
+
+.facils h3 {
+
+     text-align: center;
+    font-size: 25px;
+    margin: 25px auto;
+
+
+}
+
+.facils p{
+
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.facils button{
+
+    display: block;
+    margin: 40px auto 100px;
+    background: #fff;
+    border: none;
+    border-radius: 21px;
+    padding: 8px 31px;
+}
+
+.facils button:hover{
+
+     transform: scale(1.1);
+     background-color: #dd4b2b;
+    color: white;
+}
+
+/*facilis End*/
+
+/*Ante Srtr*/
+
+.news{
+
+    background:url(../img/sevn.png)center top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+
+.news h1 {
+    font-size: 40px;
+    color:#dd4b2b ;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 25px;
+}
+.news p {
+    color:#dd4b2b;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    word-spacing: 4px;
+}
+
+.position{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.news input {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-left: 16%;
+    width: 60%;
+    padding: 15px 120px 15px 30px;
+    background: rgba(250,250,90,0.3);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.news button {
+    background:#dd4b2b;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    position: absolute;
+    right: 123px;
+    top: 40px;
+    color: white;
+}
+.news button:hover{
+    color: #dd4b2b;
+    transform: scale(1.1);
+    background: white;
+    
+}
+
+/*Ante end*/
+
+/*blndSrtr*/
+
+.blnd{
+
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+.blnd h1{
+
+   font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.blnd p{
+
+     text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #948383;
+    
+}
+
+
+.blnd.img-top{
+    margin-top: 100px;
+}
+.left img {
+    height: 100%;
+    width: 100%;
+}
+
+.right img {
+    height: 80%;
+    width: 80%;
+    display:block;
+    margin: 50px 0;
+}
+.blnd{
+
+    
+}
+.blnd{
+
+    
+}
+
+
+.left button {
+    display: block;
+    margin: 0px auto;
+    background: #dd4b2b;
+    color: #fff;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 20px;
+}
+
+.left button:hover{
+    transform: scale(1.1);
+    background: white ;
+    color: #dd4b2b;
+    
+}
+.right button {
+    display: block;
+    margin: 0px auto;
+    background: #dd4b2b;
+    color: #fff;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 20px;
+}
+
+.right button:hover{
+    transform: scale(1.1);
+    background: white ;
+    color: #dd4b2b;
+}
+
+/*blnd end*/
+
+/*Placerat section Start */
+.pla{
+    width: 100%;
+    float: left;
+    background: #d75d0e;
+    padding: 80px 0px;
+}
+.pla ul{
+    list-style: none;
+
+}
+.pla ul li {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+/*Placerat section End */
+
+
+/*footr strt */
+
+
+
+
+.footer{
+    background: url(../img/sevn.png)center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding:80px 0px 150px;
+}
+.footer p {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+/*footr End */
+
+
+@media (min-width:320px) and (max-width: 500px){
+    
+  .logo img {
+    margin-left: 150px;
+}
+
+
+
+.nav-link.js-scroll-trigger.active {
+    padding: 3px 20px;
+    width: 103px;
+}
+.hero-main{
+     margin-top: 150px;
+     margin-bottom: 100px;
+     
+}
+
+.hero button{
+        padding: 5px 18px;
+        margin: 25px auto 75px;
+}
+.hero-main h1 {
+    font-size: 26px;
+}
+
+.facilis img {
+    display: block;
+    margin: 0 auto;
+}
+.facilis button {
+    font-size: 12px;
+    padding: 3px 10px;
+    margin: 0px auto 60px;
+}
+.news h1 {
+    font-size: 30px;
+}
+
+.news p {
+    font-size: 9px;
+}
+
+.news input {
+    padding: 5px 120px 5px 30px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+
+
+
+.news button {
+    padding: 5px 20px;
+    right: 92px;
+
+}
+
+
+.bland h1 {
+    font-size: 20px;
+}
+
+.bland p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+.left button {
+    font-size: 11px;
+    padding: 3px 20px;
+}
+
+
+
+.right button {
+    font-size: 11px;
+    margin-bottom: 35px;
+    padding: 3px 20px;
+}
+
+.pla{
+        padding: 50px 0px
+}
+
+.pla ul li {
+    font-size: 10px;
+}
+
+.footer{
+    padding: 50px 0px 150px;
+}
+
+
